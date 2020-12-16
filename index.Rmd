@@ -56,34 +56,32 @@ NoCite(bib, "orchestrating2015")
 
 # Thank you!
 
-.x-large-li[
 .pull-left[
 ## People
 
-- Mike Smith
+- [Mike Smith](https://github.com/grimbough)
 
-- Charlotte Soneson
+- [Charlotte Soneson](https://github.com/csoneson)
 
-- Laurent Gatto
+- [Laurent Gatto](https://github.com/lgatto)
 
-- Jeroen Gillis
+- [Jeroen Gillis](https://github.com/jgilis)
 
-- Michael Love
+- [Michael Love](https://github.com/mikelove)
 
-- Koen Van den Berge
+- [Koen Van den Berge](https://github.com/koenvandenberge)
+
+- [Dario Righelli](https://github.com/drighelli)
 ]
-]
 
-.x-large-li[
 .pull-left[
 ## Topics
 
 - GitHub Action
 
-- iSEE transcripts
+- [Transcript visualization using iSEE](https://kevinrue.github.io/BiocChallenges/articles/challenges/isee_transcripts.html)
 
-- Spatial challenges
-]
+- [Spatial challenges](https://helenalc.github.io/BiocSpatialChallenges/)
 ]
 
 ---
@@ -156,6 +154,20 @@ knitr::include_graphics("img/minion-taking-notes.jpg")
 ```
 ]
 
+---
+
+# More thoughts
+
+.x-large-li[
+- `BiocMicrobiomeChallenges` ?
+
+- `BiocGeneSetsChallenges` ?
+
+- GitHub template repository for other thematic challenges.
+
+- `r BiocStyle::Githubpkg("kevinrue/BiocChallenges")` itself is an R package, proving functions to manage challenges.
+  Other challenge packages can declare `Imports:` to use those functions.
+]
 
 ---
 
@@ -189,22 +201,6 @@ knitr::include_graphics("img/minion-taking-notes.jpg")
 ```{r echo=FALSE, fig.align='center'}
 knitr::include_graphics("img/minions-lets-go.jpg")
 ```
-]
-
----
-
-# At the end of this week
-
-.x-large-p[
-.center[
-**Friday 19:05 - 19:15 (CET)**
-
-**BiocChallenges closing presentation**
-]
-
-<br/>
-
-Notify me throughout the week, so that I can report new challenges, ideas, and contributions!
 ]
 
 ---
