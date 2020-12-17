@@ -6,6 +6,7 @@ institute: ''
 date: '2020-12-18 (updated: `r Sys.Date()`)'
 output:
   xaringan::moon_reader:
+    seal: false
     css: [default, metropolis, rladies-fonts, "my-theme.css"]
     lib_dir: libs
     nature:
@@ -14,6 +15,21 @@ output:
       countIncrementalSlides: false
 # uncomment this line to produce HTML and PDF in RStudio:
 knit: pagedown::chrome_print
+---
+
+class: remark-slide-content center middle inverse title-slide hljs-github
+
+```{r child = "_snow.Rmd"}
+```
+
+# Challenges from and for the Bioconductor community <img src="img/sticker.png" height="150px">
+
+## European Bioconductor Meeting 2020
+
+### [Kevin Rue-Albrecht](https://kevinrue.github.io), [Charlotte Soneson](https://csoneson.github.io), [Laurent Gatto](https://lgatto.github.io), et [EuroBioc2020 Organising Committee](https://eurobioc2020.bioconductor.org/organizing_committee)
+
+### 2020-12-18 (updated: `r Sys.Date()`)
+
 ---
 
 layout: true
