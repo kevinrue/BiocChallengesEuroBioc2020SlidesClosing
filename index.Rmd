@@ -88,6 +88,8 @@ NoCite(bib, "orchestrating2015")
 - [Koen Van den Berge](https://github.com/koenvandenberge)
 
 - [Dario Righelli](https://github.com/drighelli)
+
+- [Vince Carey](https://github.com/vjcitn)
 ]
 
 .pull-left[
@@ -126,14 +128,38 @@ knitr::include_graphics("img/biocchallenges-challenges.png")
 
 ---
 
-# A tour of BiocChallenges
+# New challenge
 
 .center[
 <https://github.com/kevinrue/BiocChallenges>
 ]
 
 ```{r echo=FALSE, fig.align='center', out.height='450px', out.width='700px'}
-knitr::include_graphics("img/biocchallenges-challenge-example.png")
+knitr::include_graphics("img/biocchallenges-challenge-isee-transcripts.png")
+```
+
+---
+
+# New challenge
+
+.center[
+<https://github.com/kevinrue/BiocChallenges>
+]
+
+```{r echo=FALSE, fig.align='center', out.height='450px', out.width='700px'}
+knitr::include_graphics("img/biocchallenges-challenge-genomic-computing.png")
+```
+
+---
+
+# Challenge update
+
+.center[
+<https://github.com/kevinrue/BiocChallenges>
+]
+
+```{r echo=FALSE, fig.align='center', out.height='450px', out.width='700px'}
+knitr::include_graphics("img/biocchallenges-challenge-build-failures.png")
 ```
 
 ---
@@ -179,10 +205,10 @@ knitr::include_graphics("img/minion-taking-notes.jpg")
 
 - `BiocGeneSetsChallenges` ?
 
-- GitHub template repository for other thematic challenges.
+- <i class="fab fa-github"></i> `r BiocStyle::Githubpkg("kevinrue/BiocChallengesTemplate")` for other thematic series of challenges.
 
-- `r BiocStyle::Githubpkg("kevinrue/BiocChallenges")` itself is an R package, proving functions to manage challenges.
-  Other challenge packages can declare `Imports:` to use those functions.
+- <i class="fab fa-github"></i> `r BiocStyle::Githubpkg("kevinrue/BiocChallenges")` itself is an R package, proving functions to manage challenges.
+  <i class="fab fa-github"></i> `r BiocStyle::Githubpkg("kevinrue/BiocChallengesTemplate")` declares `Imports:` to use those functions.
 ]
 
 ---
