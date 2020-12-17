@@ -3,7 +3,7 @@ title: 'Challenges from and for the Bioconductor community <img src="img/sticker
 subtitle: 'European Bioconductor Meeting 2020'
 author: '[Kevin Rue-Albrecht](https://kevinrue.github.io), [Charlotte Soneson](https://csoneson.github.io), [Laurent Gatto](https://lgatto.github.io), et [EuroBioc2020 Organising Committee](https://eurobioc2020.bioconductor.org/organizing_committee)'
 institute: ''
-date: '2020-12-14 (updated: `r Sys.Date()`)'
+date: '2020-12-18 (updated: `r Sys.Date()`)'
 output:
   xaringan::moon_reader:
     css: [default, metropolis, rladies-fonts, "my-theme.css"]
