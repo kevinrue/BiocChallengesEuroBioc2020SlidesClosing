@@ -5,13 +5,22 @@ output: html_document
 
 <div class="snowflakes" aria-hidden="true">
   <div class="snowflake">
-  ❅
+  <img src="img/sticker.png" alt="logo" align="right" height="100px"></div>
   </div>
   <div class="snowflake">
   ❅
   </div>
   <div class="snowflake">
   ❆
+  </div>
+  <div class="snowflake">
+  <img src="img/Bioconductor.png" alt="logo" align="right" height="100px"></div>
+  </div>
+  <div class="snowflake">
+  ❄
+  </div>
+  <div class="snowflake">
+  <img src="img/sticker.png" alt="logo" align="right" height="100px"></div>
   </div>
   <div class="snowflake">
   ❄
@@ -23,16 +32,7 @@ output: html_document
   ❆
   </div>
   <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
+  <img src="img/Bioconductor.png" alt="logo" align="right" height="100px"></div>
   </div>
 </div>
 
