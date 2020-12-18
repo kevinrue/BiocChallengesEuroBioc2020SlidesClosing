@@ -81,7 +81,7 @@ NoCite(bib, "orchestrating2015")
 
 - [Laurent Gatto](https://github.com/lgatto)
 
-- [Jeroen Gillis](https://github.com/jgilis)
+- [Jeroen Gilis](https://github.com/jgilis)
 
 - [Michael Love](https://github.com/mikelove)
 
