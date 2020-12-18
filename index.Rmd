@@ -191,7 +191,7 @@ knitr::include_graphics("img/biocspatialchallenges.png")
 ]
 
 .pull-right[
-```{r echo=FALSE, fig.align='center', out.height='100%'}
+```{r echo=FALSE, fig.align='center', out.height='550px'}
 knitr::include_graphics("img/minion-taking-notes.jpg")
 ```
 ]
